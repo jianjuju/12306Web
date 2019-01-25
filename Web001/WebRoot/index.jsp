@@ -22,7 +22,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
       <% int money=1000;
          System.out.println(money);
-         out.write(1000);      
+         out.write(1000);    
+         System.out.println(123456);  
           %>
           <%--jsp注释 --%>
   </body>
