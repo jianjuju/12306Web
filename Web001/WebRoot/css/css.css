@@ -1,0 +1,26 @@
+.ceng{
+    width: 999px;
+    height: 399px;
+    background-color:black;
+    position: absolute;
+    top: 8px;
+    opacity: 0.3;
+    display: none;
+}
+
+.ceng a{
+    display:inline-block;
+    width: 100px;
+    color: white;
+
+}
+.content:hover .ceng{
+    animation:hello 1s;
+    width:999px;
+    display: block;
+}
+@keyframes hello {
+    from{width: 10px;}
+    to{width: 999px;}
+}
+
